@@ -1,0 +1,207 @@
+#main {
+    font-family: Monospace;
+    text-decoration: none;
+}
+
+body {
+    background: url(https://images.pexels.com/photos/2832432/pexels-photo-2832432.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: url(https://images.pexels.com/photos/2832432/pexels-photo-2832432.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+        background-size: cover;
+
+    }
+}
+
+#header {
+    font-size: 40px;
+    font-family: Monospace;
+    letter-spacing: 13px;
+    padding-top: 5px;
+    text-align: left;
+    text-shadow: 2px 2px #E13A9D;
+    position: fixed;
+    display: flex;
+    
+
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    background-color: #FED6BE;
+}
+
+#header-img {
+    width: 80px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#title {
+
+    text-decoration: overline #E13A9D 7px;
+
+    color: black;
+
+}
+
+#nav-bar {
+    text-align: right;
+    font-family: Monospace;
+    min-height: 80px;
+
+
+}
+
+
+
+a {
+    font-family: Monospace;
+    font-size: 24px;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration-line: underline #F21368 4px;
+    text-align: right;
+
+}
+
+body {
+    text-align: center;
+
+}
+
+.new1 {
+    border-top: 1px black;
+}
+
+.submit {
+    box-shadow: 3px 3px #E13A9D;
+    background-color: black;
+    border: none;
+    color: #E13A9D;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-collapse: separate;
+    border-spacing: 100px 70px 70px 70px;
+}
+
+#about {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 70px 70px;
+
+}
+
+#img1 {
+    width: 120px;
+    border-radius: 70%;
+}
+
+#img2 {
+    width: 120px;
+    border-radius: 80%;
+
+}
+
+#img3 {
+    width: 120px;
+    border-radius: 80%;
+
+}
+
+.catehead {
+    font-family: Monospace;
+    letter-spacing: 10px;
+    font-size: 35px;
+    text-shadow: 2px 2px #E13A9D;
+}
+
+.catepara {
+    font-family: Monospace;
+}
+
+#demo {
+    border-collapse: separate;
+    border-spacing: 70px 70px;
+}
+
+iframe {
+    box-shadow: 3px 3px 4px 3px #E13A9D;
+}
+
+input {
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+
+form {
+    border-collapse: separate;
+    border-spacing: 100px 70px 70px 70px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: Monospace;
+
+}
+
+.flex-container>div {
+    background-color: #FED6BE;
+    width: 350px;
+    height: 500px;
+    margin: 30px;
+    color: #272121;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+
+.pricehead {
+    font-family: Monospace;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-shadow: 1px 2px #E13A9D;
+    border-collapse: separate;
+    border-spacing: 70px 70px;
+    margin: 10px;
+
+}
+
+.buynow {
+    box-shadow: 3px 3px #E13A9D;
+    background-color: black;
+    border: none;
+    color: #E13A9D;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-collapse: separate;
+    border-spacing: 100px 70px 70px 70px;
+}
+
+footer {
+    background-color: black;
+    color: #FED6BE;
+    letter-spacing: 4px;
+    font-size: 17px;
+    box-shadow: 3px 3px #E13A9D;
+}
